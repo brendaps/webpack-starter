@@ -1,0 +1,53 @@
+node --version
+npm --version
+npm init
+
+
+
+para node_module:
+npm install webpack webpack-cli --save-dev  
+
+para carpeta dist y main:
+npm run build
+
+para meter el index en dist:
+npm i -D html-loader html-webpack-plugin
+
+npm run build
+
+
+npm install --save-dev html-loader
+npm install --save-dev html-webpack-plugin
+
+// webpack devServer
+
+npm i --save-dev 
+o bien:
+npm i -D webpack-dev-server
+
+npm run start
+o bien 
+npm start
+
+components.css para darle estilo a componentes.js
+
+style-loader y css-loader para importar el estilo de .css & importa el css como si fuera un js
+
+npm instal --save-dev css-loader style-loader
+
+para que jale otro css:
+
+npm install --save-dev mini-css-extract-plugin
+
+npm install file-loader --save-dev
+
+//cómo remover recursos estáticos
+
+npm install copy-webpack-plugin --save-dev
+
+npm i -D css-minimizer-webpack-plugin terser-webpack-plugin
+
+-ir a babel y picarle en webpack: en la version de producción
+es para que funciones en versiones viejas de navegadores (lo traduce)
+npm install --save-dev babel-loader @babel/core
+npm install @babel/preset-env --save-dev
