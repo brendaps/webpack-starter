@@ -1,0 +1,7 @@
+para subir cosas al repositorio:
+
+git add .
+
+git commit -m "Readme creado"
+
+git push -u origin main      
